@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000", {
+const socket = io("typing-race-backend-cndrbfc5hedhcea6.southindia-01.azurewebsites.net", {
     transports: ["websocket", "polling"],
     reconnection: true,
 });
